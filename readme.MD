@@ -1,10 +1,17 @@
 FROM --> Should be the first instruction to refer base OS
+
 RUN --> installing packages and configuring image. runs at build time
+
 CMD --> Runs at container creation time, it keeps container running ["command-name", "params"]
+
 LABEL --> adds metadata to the image, useful while filtering the images
+
 EXPOSE --> informs about the ports opened by container, cant' really open the ports, just as a information to user
+
 COPY --> copies the files from workspace to image
+
 ADD --> 1. can download files directly from internet, can untar directly into image
+
 ENV --> sets the env variables to the containe
 
 
