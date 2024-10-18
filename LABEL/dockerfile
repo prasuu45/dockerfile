@@ -1,5 +1,5 @@
 FROM almalinux:9
-LABEL author="sivakumar"/
-      commpay= "joindevops"/
-      topic= "dockerfile"/
-      duration= 2hrs
+LABEL author="sivakumar" \
+      company="joindevops" \
+      topic="dockerfiles" \
+      duration="2hrs"
